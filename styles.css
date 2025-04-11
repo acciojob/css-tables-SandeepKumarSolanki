@@ -1,9 +1,17 @@
 /*  your css code here. If applicable */
-table{
-	border : 1px solid black;
-	border-radius : 5px;
+table {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%; /* Optional: ensures the table takes full width */
+    border-collapse: collapse; /* Optional: for better border styling */
 }
-thead{
-	border : 1px solid black;
-	border-radius : 5px;
+
+thead {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+th, td {
+    padding: 5px; /* This is to ensure proper cell padding */
+    text-align: left; /* Optional: aligns text to the left */
 }
