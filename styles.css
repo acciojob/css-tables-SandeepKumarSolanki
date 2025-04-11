@@ -13,6 +13,7 @@ thead {
 
 th, td {
 	border : 1px solid #ccc;
+	border-radius : 5px;
     padding: 0.5rem; /* This is to ensure proper cell padding */
     text-align: left; /* Optional: aligns text to the left */
 }
