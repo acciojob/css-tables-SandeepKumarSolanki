@@ -12,6 +12,13 @@ thead {
 }
 
 th, td {
-    padding: 5px; /* This is to ensure proper cell padding */
+	border : 1px solid #ccc;
+    padding: 0.5rem; /* This is to ensure proper cell padding */
     text-align: left; /* Optional: aligns text to the left */
+}
+tr:nth-child(odd){
+	background-color : #f2f2f2;
+}
+tr:nth-child(even){
+	background-color : #ffffff;
 }
