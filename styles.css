@@ -17,8 +17,8 @@ th, td {
     text-align: left; /* Optional: aligns text to the left */
 }
 tr:nth-child(odd){
-	background-color : #f2f2f2;
+	background-color : #ffffff;
 }
 tr:nth-child(even){
-	background-color : #ffffff;
+	background-color : #f2f2f2;
 }
